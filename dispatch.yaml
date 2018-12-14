@@ -1,0 +1,9 @@
+dispatch:
+  - url: "*lit-element.polymer-jp.org/*"
+    service: lit-element
+
+  - url: "*lit-html.polymer-jp.org/*"
+    service: lit-html
+
+  - url: "*pwa-starter-kit.polymer-jp.org/*"
+    service: pwa-starter-kit

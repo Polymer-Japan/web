@@ -1,0 +1,18 @@
+{
+  "name": "web",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "dispatch": "gcloud app deploy dispatch.yaml --project polymer-japan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polymer-Japan/web.git"
+  },
+  "author": "Polymer Japan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Polymer-Japan/web/issues"
+  },
+  "homepage": "https://github.com/Polymer-Japan/web#readme"
+}
