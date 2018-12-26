@@ -3,7 +3,8 @@
   "private": true,
   "description": "",
   "scripts": {
-    "dispatch": "gcloud app deploy dispatch.yaml --project polymer-japan"
+    "dispatch": "gcloud app deploy dispatch.yaml --project polymer-japan",
+    "format": "prettier --write '**/*.{json,md,yaml}'"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Polymer-Japan/web/issues"
   },
-  "homepage": "https://github.com/Polymer-Japan/web#readme"
+  "homepage": "https://github.com/Polymer-Japan/web#readme",
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  }
 }
