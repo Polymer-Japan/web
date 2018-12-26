@@ -1,4 +1,10 @@
 dispatch:
+  - url: "*community.polymer-jp.org/*"
+    service: default
+
+  - url: "polymer-jp.org/*"
+    service: polymer-project-org
+
   - url: "*lit-element.polymer-jp.org/*"
     service: lit-element
 
