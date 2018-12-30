@@ -8,5 +8,8 @@ dispatch:
   - url: "*pwa-starter-kit.polymer-jp.org/*"
     service: pwa-starter-kit
 
+  - url: "*doc.polymer-jp.org/*"
+    service: default
+
   - url: "*polymer-jp.org/*"
     service: polymer-project-org
